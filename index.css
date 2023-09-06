@@ -1,0 +1,538 @@
+html{
+  scroll-behavior: smooth;
+}
+
+{box-sizing: border-box;}
+.logo a {
+  background-color: #e9e9e9;
+  float: left;
+  margin-left: 30px;
+  font-size: 24px;
+  padding: 25px 19px;
+  color: black;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+/* Style the navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 27px 21px;
+  text-decoration: none;
+  font-size: 20px;
+}
+/* Navbar links on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Active/current link */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Style the input container */
+.topnav .login-container {
+  float: right;
+}
+
+/* Style the input field inside the navbar */
+ .topnav input[type=text], input[type=password] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
+}
+
+/* Style the button inside the input container */
+.topnav .login-container input[type=submit] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container input[type=submit]:hover {
+  background: #ccc;
+}
+.reg{
+  text-decoration: none;
+}
+
+.login-container input[type=checkbox]{
+background-color: white;
+border: 5px black;
+width: 13px;
+height: 13px;
+display:inline-block;
+position: absolute;
+top: 121px;
+
+left:1460px;
+
+}
+.login-container label {
+  display: block;
+  position: relative;
+  top: 5.5px;
+  right: -200px;
+  font-size: 15px;
+}
+.img_container img{
+  position: relative;
+  align: center;
+  margin-left: 30px;
+  width: 98.1%;
+  height: 95%;
+  opacity: 0.87;
+  }
+  .search input[type=search] {
+    padding:15px 100px;
+    position: relative;
+    left:600px;
+    font-size: 17px;
+    text-align: left;
+  }
+  .search input[type=submit]{
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    position: relative;
+    left:620px;
+    cursor: pointer;
+  }
+  .search input[type=submit]:hover{
+      background: #ccc;
+  }
+  .welcome_text{
+      text-align: center;
+      color: white;
+      position: absolute;
+      top: 400px;
+      left: 380px;
+      font-size: 50px;
+      background-color: rgba(0,0,0,0.5)
+      border: 1px solid black
+
+    }
+
+.show {
+  display: block;
+}
+button{
+font-family: serif;
+}
+.scroll1{
+  text-align: center;
+  position: absolute;
+  top: 930px;
+  left: 780px;
+  font-size: 50px;
+}
+.scroll1 img:hover{
+opacity: 0.5;
+}
+.exploreActiveAuctions img{
+  position: relative;
+  align: center;
+  top:40px;
+  margin-left: 30px;
+  width: 98.1%;
+  height: 70%;
+}
+.exploreActiveAuctions h1{
+  color: black;
+  position: absolute;
+  text-decoration: underline;
+  text-decoration-color: lightblue;
+  top: 1030px;
+  right: 1091px;
+  font-size: 50px;
+}
+.scroll2{
+  text-align: center;
+  position: absolute;
+  top: 1690px;
+  left: 780px;
+  font-size: 50px;
+}
+.scroll2 img:hover{
+opacity: 0.5;
+}
+.column {
+  float: left;
+  width: 24.3%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.exploreCategories h1{
+  color: black;
+  position: absolute;
+  left: 50px;
+  top: 1740px;
+  text-decoration: underline;
+  text-decoration-color: lightblue;
+  font-size: 50px;
+}
+.scroll3{
+  text-align: center;
+  position: absolute;
+  top: 2000px;
+  left: 780px;
+  font-size: 50px;
+}
+footer{
+  text-align: center;
+  font-size: 20px;
+}
+footer ul{
+list-style: none;
+text-transform: uppercase;
+
+}
+.row h1{
+  text-decoration: none;
+  text-decoration-color: none;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+
+}
+
+.row p{
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+
+
+div#c1 h1{
+  position: absolute;
+  top:2050px;
+  left: 100px;
+}
+div#c1 p{
+  position: absolute;
+  top:2150px;
+  left: 50px;
+}
+.row img{
+opacity: 0.5;
+}
+.row img:hover{
+opacity: 1;
+}
+div#c2 h1{
+  position: absolute;
+  top:2050px;
+  left: 550px;
+}
+div#c2 p{
+  position: absolute;
+  top:2150px;
+  left: 450px;
+}
+div#c1,#c2,#c3,#c4,#c5 h1{
+background-color:rgba(0,0,0,1);
+}
+div#c1,#c2,#c3,#c4,#c5 p{
+background-color:rgba(0,0,0,1);
+}
+div#c3 h1{
+  position: absolute;
+  top:2050px;
+  left: 900px;
+}
+div#c3 p{
+  position: absolute;
+  top:2150px;
+  left: 870px;
+}
+div#c4 h1{
+  position: absolute;
+  top:2050px;
+  left: 1300px;
+}
+div#c4 p{
+  position: absolute;
+  top:2150px;
+  left: 1300px;
+}
+
+.signup input {
+  display: block;
+   margin-right: auto;
+   margin-left: auto;
+   width:20%;
+   padding: 6px;
+   margin-top: 8px;
+   font-size: 17px;
+   border: 0.5px black solid;
+}
+.signup{
+  text-align:center;
+  font-size: 20px;
+}
+.signup input[type=submit] {
+  padding: 6px;
+  background: #ddd;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.signup input[type=submit]:hover {
+  background: #ccc;
+}
+.signup ul{
+  text-align: center;
+  list-style-position: inside;
+}
+.login-container p{
+  font-size: 19px;
+  position: relative;
+  left: 680px;
+  top: 10px;
+}
+.edit{
+  text-align:center;
+  font-size: 20px;
+}
+.edit input[type=text]{
+   margin-right: auto;
+   margin-left: auto;
+   width:20%;
+   padding: 6px;
+   margin-top: 8px;
+   font-size: 17px;
+   border: 0.5px black solid;
+}
+.edit button {
+  width:42px;
+  height: 37px;
+  position:absolute;
+  right:37%;
+}
+#b1{
+    position:absolute;
+    top: 273px;
+}
+#b2{
+    position:absolute;
+    top: 371px;
+}
+#b3{
+    position:absolute;
+    top: 492px;
+}
+#b4{
+  position:absolute;
+  top: 612px;
+}
+.logout input[type=submit]{
+  float: right;
+  border:none;
+  font-size: 17px;
+  padding: 28.5px 25px;
+  color: #000000;
+  text-align: center;
+  background-color: Transparent;
+  cursor: pointer;
+
+}
+.logout input[type=submit]:hover{
+background-color: #ddd;
+}
+.edit img{
+  float:left;
+  position: relative;
+  left: 300px;
+  bottom: 450px;
+}
+.edit label{
+  border:none;
+  float:left;
+  position: relative;
+  bottom: 180px;
+  left: 150px;
+  cursor: pointer;
+}
+.edit label:hover{
+  color:#2196F3;
+    cursor: pointer;
+}
+#upload-photo {
+   opacity: 0;
+   position: absolute;
+   z-index: -1;
+}
+.edit input[type=submit]{
+  border:none;
+  float:left;
+  position: relative;
+  bottom: 150px;
+  left: 60px;
+  width:100px;
+
+
+}
+.edit1 p{
+  text-align: center;
+  font-size: 17px;
+  position: relative;
+  top: 420px;
+  right: 400px;
+}
+.changepsw{
+  position: relative;
+  left: 670px;
+  top: 150px;
+}
+.create select{
+  margin-right: auto;
+  margin-left: auto;
+  width:20%;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 0.5px black solid;
+}
+#itemPics{
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+.create label{
+  border:none;
+
+  cursor: pointer;
+}
+.create label:hover{
+  color:#2196F3;
+    cursor: pointer;
+}
+.create textarea{
+  margin-right: auto;
+  margin-left: auto;
+  width:20%;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 0.5px black solid;
+}
+.create #bd{
+  cursor:default;
+}
+.create #bd:hover{
+  color:black;
+}
+.abcd{
+  text-align: center;
+}
+.abcd h1{
+  font-size: 55px;
+}
+.abcd img{
+  display:inline-block;
+  float: left;
+}
+.abcd p{
+  font-size: 35px;
+}
+.besideImg{
+  text-align: left;
+  float: left;
+  font-size: 25px;
+}
+.besideImg{
+  margin-right: auto;
+  margin-left: auto;
+  width:75%;
+  height:750px;
+  font-size: 17px;
+  border: 0.5px black solid;
+}
+.besideImg input[type=submit]{
+  padding: 6px;
+  background: #ddd;
+  font-size: 20px;
+  cursor: pointer;
+}
+.besideImg input[type=submit]:hover{
+    background: #ccc;
+}
+.besideImg #bd{
+  display: inline-block;
+text-align: right;
+}
+.besideImg input[type=number]{
+  margin-right: auto;
+  margin-left: auto;
+  width:20%;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 0.5px black solid;
+}
+.msg{
+  bottom: 350px;
+  font-size: 20px;
+  text-align: center;
+}
+.hide {
+  display: none;
+}
+.myDIV{
+    cursor: pointer;
+}
+.myDIV:hover + .hide {
+  cursor: pointer;
+  display: block;
+
+}
+/* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .login-container input[type=submit]  {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+.login-container .reg{
+  padding:0px;
+}
